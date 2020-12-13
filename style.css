@@ -1,0 +1,86 @@
+.body_background {
+    background-color: gray;
+}
+
+.navbar-brand {
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:rgb(56, 236, 221);
+    font-style: bold;
+    font-size: 35px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  }
+
+  .right-align {
+    position: absolute;
+    right: 10%;
+  }
+
+.page-title {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 35px;
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+        font-style: bold;
+        color: rgb(56, 236, 221);
+        background: white
+      }
+
+.page-text {
+          background: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+      }
+.section {
+          background:white
+      }
+table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+.center {
+        padding-top: 20px;
+        font-size: 25px;
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif;;
+        font-style: bold;
+        color: rgb(56, 236, 221);
+        text-align: center;
+      }
+      .row {
+        justify-content: center
+      }
+
+@media (max-width: 868px) { 
+  .navbar-expand-lg {
+    background-color: rgb(56, 236, 221);
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 10%;
+    
+}
+  .right-align {
+    position: absolute;
+    right: 10%;
+  }
+  .nav-item {
+    position: relative;
+    top: 30px;
+    font-style: bold;
+    background-color: white;
+}
